@@ -51,4 +51,8 @@ app.get('/users', (req, res) => res.json(users))
 
 
 //listen 함수로 서버를 요청 대기 상태로 만든다.
-app.listen(3000, () => console.log('running'))
+//app.listen(3000, () => console.log('running'))
+
+
+//commonjs를 구현한 모듈 시스템으로 app 인스턴스를 외부에서도 쓸 수 있게 만들어줌
+module.exports = app
