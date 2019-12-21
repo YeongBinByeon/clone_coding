@@ -9,8 +9,9 @@ const express = require('express')
 const logger = require('morgan')
 const app = express()
 const users = [
-    {name: 'Alice'},
-    {name: 'Beck'}
+    {id: 1, name: 'Alice'},
+    {id: 2, name: 'Beck'},
+    {id:3 , name: 'chris'}
 ]
 
 
@@ -46,12 +47,21 @@ app.use(logger('dev')) // 개발환경 log를 찍을 때 dev를 씀
 app.use(generalMw)
 app.use(errorMw)
 
+
+// npm start 명령어로 실행
 app.get('/', (req, res) => res.send('Hello World!'))
-app.get('/users', (req, res) => res.json(users))
+app.get('/users', (req, res) => {
+    req.query.limit = req.query.limit || 10 //limit 요청 안하면 default값 10, , 10 "10" "ten"이 될 수도
+    const limit = parseInt(req.query.limit, 10) // limit값은 문자열로 왔을테니 10진수로 바꾸는 작업 수행
+    // limit 쿼리 값에 숫자가 아닌 값이 들어왔으면 limit변수에 숫자가 아닌 값이 들어올테니 이걸로 분기치면 됨
+    if(isNaN(limit) == true){
+        res.sendStatus(400)
+    }else{
+        res.json(users.slice(0, limit)) // users 배열을 limit 길이만큼 쪼개서 보내준다.
+    } 
+})
 
 
-//listen 함수로 서버를 요청 대기 상태로 만든다.
-//app.listen(3000, () => console.log('running'))
 
 
 //commonjs를 구현한 모듈 시스템으로 app 인스턴스를 외부에서도 쓸 수 있게 만들어줌
