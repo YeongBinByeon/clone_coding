@@ -47,3 +47,76 @@ describe('GET /users', () => {
     })
 })
 
+describe('GET /users/:id', () => {
+    describe('성공', () => {
+        it('유저 객체를 반환한다.', done => {
+             request(app)
+             .get('/users/1')
+             .end((err, res) => {
+                 //response body에 user 객체가 넘어올거고, id값은 1일것이다.
+                 res.body.should.have.property('id', 1)
+                 done()
+             })
+        })
+    })
+    describe('실패', () => {
+        it('id가 숫자가 아닐경우 400으로 응답한다.', (done) => {
+            request(app)
+            .get('/users/one')
+            .expect(400)
+            .end(done)
+        })
+        it('id로 유저를 찾을 수 없을 경우 404로 응답한다.', (done) => {
+            request(app)
+            .get('/users/10')
+            .expect(404)
+            .end(done)
+        })
+    })
+})
+
+describe('DELETE /users/:id', () => {
+    describe('성공', () => {
+        it('204 응답', done => {
+            request(app)
+            .delete('/users/3')
+            .expect(204)
+            .end(done)
+        })
+    })
+    describe('실패', () => {
+        it('id가 숫자가 아닐경우 400', done => {
+            request(app)
+            .delete('/users/three')
+            .expect(400)
+            .end(done)
+        })
+    })
+})
+
+describe('POST /users', () => {
+    describe('성공', () => {
+        it('201을 응답, 생성한 유저 객체를 응답', done => {
+            // body는 send 함수로 전달한다.
+            request(app).post('/users').send({name:'Daniel'})
+            .expect(201)
+            .end((err, res) => {
+                //response body 객체를 통해서 유저 정보가 올 것임
+                //body에는 name이라는 property가 있을 것이고, Daniel 값이 있을 것임
+                res.body.should.have.property('name', 'Daniel')
+                //test가 완료되면 done 함수로 종료하면 된다.
+                done()
+            })
+        })
+    })
+    describe('실패', () => {
+        it('name이 없으면 400 응답', done => {
+            request(app).post('/users').send({})
+            .expect(400).end(done)
+        })
+        it('name이 중복이면 409 응답', done => {
+            request(app).post('/users').send({name:'Alice'})
+            .expect(409).end(done)
+        })
+    })
+})
