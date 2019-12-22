@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha ./index.spec.js"
+    "test": "mocha ./api/**/*.spec.js"
   },
   "author": "",
   "license": "ISC"

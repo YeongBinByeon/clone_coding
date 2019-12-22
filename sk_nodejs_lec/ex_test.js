@@ -9,11 +9,8 @@ const express = require('express')
 const logger = require('morgan')
 const bodyParser = require('body-parser')
 const app = express()
-let users = [
-    {id: 1, name: 'Alice'},
-    {id: 2, name: 'Beck'},
-    {id: 3, name: 'chris'}
-]
+const user = require('./api/user/index.js')
+
 
 //body parser는 middle웨어이기에 use()로 추가해주어야 한다.
 // json 타입으로 body를 받는다는 의미
@@ -53,72 +50,9 @@ const mw2 = (req, res, next) => {
 app.use(generalMw)
 app.use(errorMw)
 
-
-// npm start 명령어로 실행
-app.get('/', (req, res) => res.send('Hello World!'))
-app.get('/users', (req, res) => {
-    req.query.limit = req.query.limit || 10 //limit 요청 안하면 default값 10, , 10 "10" "ten"이 될 수도
-    const limit = parseInt(req.query.limit, 10) // limit값은 문자열로 왔을테니 10진수로 바꾸는 작업 수행
-    // limit 쿼리 값에 숫자가 아닌 값이 들어왔으면 limit변수에 숫자가 아닌 값이 들어올테니 이걸로 분기치면 됨
-    if(isNaN(limit) == true){
-        return res.sendStatus(400)
-    }else{
-        res.json(users.slice(0, limit)) // users 배열을 limit 길이만큼 쪼개서 보내준다.
-    } 
-})
-app.get('/users/:id', (req, res) => {
-    // id 값을 얻어낸다.
-    const id = parseInt(req.params.id, 10)
-
-    if(isNaN(id) == true){
-        return res.sendStatus(400)
-    }else{
-        // users 배열 조회
-        // 아래 filter 메서드는 users 배열을 돌면서 user.id값과 id값이 일치하는 객체만 뽑아서 배열에 저장한다는 의미.
-        // 따라서 찾은 값은 0번째 배열에 저장되어 있을 것임. 
-        const user = users.filter(kkk => kkk.id === id)[0]
-        // js에서는 null체크를 주로 이렇게 함. 
-        if(!user){
-            return res.status(404).end()
-        }else{
-            // 응답 : res
-            res.json(user)
-        }
-    }
-})
-
-app.delete('/users/:id', (req, res) => {
-    // id 값을 얻어낸다.
-    const id = parseInt(req.params.id, 10)
-
-    if(isNaN(id) == true){
-        return res.sendStatus(400).end()
-    }else{
-        user = users.filter(aaa => aaa.id !== id)
-        res.status(204).end()
-    }
-})
-
-app.post('/users', (req, res) => {
-    const name = req.body.name
-    if(!name){
-        return res.status(400).end()
-    }
-
-    // users 배열 안에 name이 body에서 추출한 name과 같은 녀석이 있는지 체크하고, length로 배열의 길이를 체크함.
-    // 배열의 length가 1이면 중복된 name이 있다는 의미이므로 아래 분기문에서 409 넘기고 종료
-    const found = users.filter(bbb => bbb.name === name).length
-    if(found) {
-        return res.status(409).end()
-    }
-
-    const id = Date.now() // 현재 시간이 초단위로 나옴
-    const user = {id, name} // { #, # }는 javascript ES6 문법
-    users.push(user)
-    res.status(201).json(user)
-    
-})
-
+// 특이하게 파라메터를 2개 줄 수 있음
+// users라는 모든 경로에 대해서는 user 라우터를 사용하겠다는 의미임 (/users 아랫 부분은 해당 라우터 가서 처리하겠다는 의미 )
+app.use('/users', user)
 
 //commonjs를 구현한 모듈 시스템으로 app 인스턴스를 외부에서도 쓸 수 있게 만들어줌
 module.exports = app

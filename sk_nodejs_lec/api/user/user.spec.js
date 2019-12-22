@@ -2,7 +2,7 @@ const assert = require('assert')
 const should = require('should')
 const request = require('supertest')
 // express 모듈을 ex_test.js 에서 가져옴
-const app = require('./ex_test')
+const app = require('../../ex_test.js')
 
 
 
