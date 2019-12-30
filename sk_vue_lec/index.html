@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Vue Todo</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Todo App</h1>
+        <!--v-model 같은 것들은 vue에서 제공하는 속성이다-->
+        <!-- v-model 은 화면에 있는 값을 아래 Vue 객체의 inputText에 연결하여 준다-->
+        <!-- .enter 부분은 event modifier 라 하는데, 이런 기능들도 제공한다.-->
+        <input type="text" v-model="inputText"
+        v-on:keyup.enter="addItem">
+        <button v-on:click="fetchItems">add</button>
+        <div>
+            <!-- 배열이든 객체든 type이든 그냥 화면에 찍어낼 수 있다.-->
+            {{ todoItems }}
+            <ul>
+                <!--Vue의 v-for 함수로 list 안의 내용들을 반복문으로 뿌려줄 수 있다.-->
+                <li v-for="(todoItem, index) in todoItems">
+                    {{ todoItem }}
+                    <!-- (todoItem, index) 괄호로 메서드에 파라메타를 넘길 수 있다. -->
+                    <button v-on:click="removeItem(todoItem, index)">remove</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        new Vue({
+            // 인스턴스가 생성됐을때 created 안의 코드가 실행이 된다.
+            created:function(){
+                //create 시점에 아래 메서드가 실행이 된다.
+                this.fetchItems();
+            },
+            el: '#app',
+            data:{
+                // inputText값이 변했을 때(입력 받았을 때) 변한 값을 화면에 반영해 주기 위함
+                inputText: '',
+                todoItems: []
+            },
+            methods:{
+                //Vue.js에서 기본적으로 event에 대한 것을 메서드로 받았을 때 method의 첫번째 인자로 event가 암묵적으로 들어온다.
+                addItem: function(event){
+                    console.log(event);
+                    var value = this.inputText;
+                    // 웹브라우저 local storage에 (key, value)으로 저장하는 코드
+                    localStorage.setItem(value, value);
+                    this.inputText = ''; //저장하고 inputText 비우기
+                    this.todoItems.push(value);
+                },
+                fetchItems: function(){
+                    // 라이브러리를 쓴다면 Axios(http 클라이언트 라이브러)
+                    // axios.get('/todos')
+                    for (var i=0; i<localStorage.length; i++){
+                        // n번째 key의 정보를 return
+                        var value = localStorage.key(i);
+                        console.log(value);
+                        console.log(this);
+                        this.todoItems.push(value);
+                    }
+                },
+                removeItem: function(todoItem, index){
+                    console.log(todoItem, index);
+                    //splice 함수는 원본 배열에서 삭제처리 함
+                    this.todoItems.splice(index, 1);
+                    //local저장소에서도 삭제 처리
+                    localStorage.removeItem(todoItem);
+                }
+            }
+        })
+    </script>
+    
+</body>
+</html>
