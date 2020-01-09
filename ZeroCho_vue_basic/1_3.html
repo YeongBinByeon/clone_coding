@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hello Vue</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="root">
+    <div>{{first}} 곱하기 {{second}} 는? </div>
+    <span>{{first * 100}} 이렇게 적는것도 가능하다.</span>
+    <form v-on:submit="onSubmitForm">
+        <input type="number" v-model="value" ref="answer">
+        <button type="submit">입력</button>
+    </form>  
+    <div> {{result}}</div>
+  </div>
+  
+  
+  <script>
+    const app = new Vue({
+        el:'#root',
+        data:{
+            first:Math.ceil(Math.random() * 9),
+            second:Math.ceil(Math.random() * 9),
+            result:'',
+            value:'',
+        },
+        methods:{
+            onSubmitForm(e){
+                e.preventDefault();//페이지 새로고침을 막는다.
+                console.log(this);
+                console.log(this.first, this.second, this.value);
+                if(this.first * this.second === parseInt(this.value)){
+                    this.result = '정답';
+                    this.first = Math.ceil(Math.random() * 9);
+                    this.second = Math.ceil(Math.random() * 9);
+                    this.value='';
+                    this.$refs.answer.focus();
+                }else{
+                    this.result="땡";
+                    this.value='';
+                    this.$refs.answer.focus();
+                }
+            },
+        },
+    });
+  </script>
+</body>
+</html>

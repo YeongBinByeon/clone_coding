@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hello Vue</title>
+</head>
+<body>
+  <div id="root">
+    <div v-if="liked">좋아요 버튼 눌렀을 때</div>
+    <button v-else v-on:click="onClickButton">Like</button>
+    <p>v-else는 v-if와 붙여서 써야 정상 동작한다.</p>
+    <div v-if="liked+1 == true">이런식으로 자바스크립트 코드를 쓸 수 있다.</div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+        el:'#root',
+        data:{
+            liked:false,
+        },
+        methods:{
+            onClickButton(){
+                //method에서 this는 data를 가르킨다.
+                this.liked = true;
+            },
+        },
+    });
+  </script>
+</body>
+</html>
