@@ -9,9 +9,9 @@
 </head>
 <body>
   <div id="root">
-    <word-relay> </word-relay>
-	<word-relay> </word-relay>
-	<word-relay> </word-relay>
+    <word-relay start-word="제로초"> </word-relay>
+	<word-relay start-word="초밥"> </word-relay>
+	<word-relay start-word="바보"> </word-relay>
   </div>
   
   <script>
@@ -26,11 +26,13 @@
 				<div>{{result}}</div>
 			</div>
 		`,
+		props: ['startWord'],
 		data(){
+			console.log(this);
 			return{
-				word:'제로초',
-				result:'result',
-				value:'value',
+				word:this.startWord,
+				result:'',
+				value:'',
             }
 		},
 		methods:{
