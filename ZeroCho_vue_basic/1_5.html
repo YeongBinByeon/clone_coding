@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hello Vue</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="root">
+    <div>{{word}} </div>
+    <form v-on:submit="onSubmitForm">
+        <input type="text" v-model="value" ref="answer">
+        <button type="submit">입력!</button>
+    </form>
+    <div>{{result}}</div>
+    </br></br>
+    <div v-if="route === 'main'">메인화면</div>
+    <div v-else-if="route === 'sub'">서브화면</div>
+    <div v-else-if="route === 'third'">세번째화면</div>
+  </div>
+  
+  
+  <script>
+    const app = new Vue({
+        el:'#root',
+        data:{
+            word:'제로초',
+            result:'',
+            value:'',
+            route:'main',
+        },
+        methods:{
+            onSubmitForm(e){
+                e.preventDefault();//페이지 새로고침을 막는다.
+                if(this.word[this.word.length-1] === this.value[0]){
+                    this.result="딩동댕";
+                    this.word=this.value;
+                    this.value='';
+                    this.$refs.answer.focus();
+                }else{
+                    this.result="땡";
+                    this.value='';
+                }
+            },
+        },
+    });
+  </script>
+</body>
+</html>
