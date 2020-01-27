@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>write</title>
+</head>
+<body>
+ hello django
+    <form action="" method="post">
+        {% comment %}
+            {{ form.as_p}}
+            {{ form.as_ul}}
+            {{ form.as_table}}
+        {% endcomment %}
+        {{ form.as_p }}
+        {% csrf_token %}
+        <button type="submit" class="btn btn-primary">저장</button>
+    </form>
+</body>
+</html>

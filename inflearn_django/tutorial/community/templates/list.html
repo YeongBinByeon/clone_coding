@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>write</title>
+</head>
+<body>
+{% for article in articleList %}
+{{ article.title }} | {{ article.name }} | {{ article.cdate|date:"D d M Y" }}
+{% endfor %}
+</body>
+</html>
