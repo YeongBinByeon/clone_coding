@@ -16,3 +16,6 @@ Django 초보 가이드 - 실습을 통해 알아보는 장고 입문 - (20/10/1
 https://www.inflearn.com/course/django-%EC%B4%88%EB%B3%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8B%A4%EC%8A%B5%EC%9D%84-%ED%86%B5%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%9E%A5%EA%B3%A0-%EC%9E%85%EB%AC%B8#
 
 [나동빈]끄투 온라인 게임 핵 개발 강좌 - https://www.youtube.com/watch?v=o8dCv84wJ3A
+
+Head First Design Patterns - (20/02/02 ~ )
+- 1. Strategy Pattern
