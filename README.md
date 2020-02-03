@@ -18,4 +18,5 @@ https://www.inflearn.com/course/django-%EC%B4%88%EB%B3%B4-%EA%B0%80%EC%9D%B4%EB%
 [나동빈]끄투 온라인 게임 핵 개발 강좌 - https://www.youtube.com/watch?v=o8dCv84wJ3A
 
 Head First Design Patterns - (20/02/02 ~ )
-- 1. Strategy Pattern
+- 1. Strategy Pattern (02/02)
+- 2. Observer Pattern (02/03)
