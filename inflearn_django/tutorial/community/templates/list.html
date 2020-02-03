@@ -5,8 +5,11 @@
     <title>write</title>
 </head>
 <body>
-{% for article in articleList %}
-{{ article.title }} | {{ article.name }} | {{ article.cdate|date:"D d M Y" }}
-{% endfor %}
+    <ul>
+        <li>제목 | 저자 | 날짜</li>
+        {% for article in articleList %}
+        <li><a href="/view/{{article.id}}">{{ article.title }}</a> | {{ article.name }} | {{ article.cdate|date:"D d M Y" }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
