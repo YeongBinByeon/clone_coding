@@ -53,22 +53,23 @@
 </head>
 
 <body>
-    <div>
+    <div id = 'app'>
 
         <h1>My Todo App !</h1>
         <strong>서로 할 일이나 의견을 공유해 봅시다.</strong>
         <br>
 
         <div class="inputBox">
-            <input class="name" type="text" placeholder="name ...">
-            <input class="item" type="text" placeholder="type anything welcomed ...">
-            <button>ADD</button>
+            <input class="name" v-model="name" type="text" placeholder="name ...">
+            <input class="item" v-model="newTodoItem" type="text" 
+                v-on:keyup.enter="add_todo()" placeholder="type anything welcomed ...">
+            <button v-on:click="add_todo()">ADD</button>
         </div>
     
         <ul class="todoList">
-            <li>
-                <span>김석훈::: Django 와 Vue.js 연동 프로그램을 만들고 있습니다.</span>
-                <span class="removeBtn">&#x00D7</span>
+            <li v-for="(todo, index) in todoItems">
+                <span>{{ todo.name }}:: {{todo.item}}</span>
+                <span class="removeBtn" v-on:click="remove_todo(index)">&#x00D7</span>
             </li>
         </ul>
 
@@ -77,7 +78,35 @@
     <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
 
     <script>
-        
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                name:'',
+                newTodoItem:'',
+                todoItems:[
+                    {name:'김석훈', item:'Django와 Vue.js 연동 프로그램을 만들고 있습니다.'},
+                    {name:'홍길동', item:'이름을 안쓰면 홍길동으로 나와요...'},
+                    {name:'이순신', item:'신에게는 아직 열두 척의 배가 있사옵니다.'},
+                    {name:'성춘형', item:'그네 타기'},
+                ],
+            },
+            methods: {
+                add_todo: function(){
+                    console.log("add_todo()...");
+                    if(this.name == '') this.name = '홍길동';
+                    if(this.newTodoItem == '') return;
+
+                    this.todoItems.push({name: this.name, item:this.newTodoItem});
+
+                    this.name = '';
+                    this.newTodoItem = '';
+                },
+                remove_todo: function(index){
+                    console.log("remove_todo()...");
+                    this.todoItems.splice(index, 1);
+                }
+            },
+        })
     </script>
 
 </body>
