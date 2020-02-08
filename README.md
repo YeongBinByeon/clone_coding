@@ -20,3 +20,4 @@ https://www.inflearn.com/course/django-%EC%B4%88%EB%B3%B4-%EA%B0%80%EC%9D%B4%EB%
 Head First Design Patterns - (20/02/02 ~ )
 - 1. Strategy Pattern (02/02)
 - 2. Observer Pattern (02/03)
+- 3. Decorator pattern (02/07)
