@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vue-Django ToDo App</title>
+{% extends 'base.html' %}
 
+{% block title %}todo_vue_only.html {% endblock %}
+
+{% block extra-style %}
     <style>
         body {
             text-align: center;
@@ -21,8 +19,9 @@
         .inputBox .name {
             border-style: none;
             border-bottom: 1px solid #ddd;
-            width: 70px;
+            width: 90px;
             padding-left: 20px;
+            line-height: 20px;
         }
         .inputBox .item {
             border-style: none;
@@ -30,6 +29,7 @@
             width: 400px;
             margin-left: 50px;
             padding-left: 20px;
+            line-height: 20px;
         }
         .todoList {
             list-style: none;
@@ -50,9 +50,9 @@
             font-size: 20px;
         }
     </style>
-</head>
+{% endblock %}
 
-<body>
+{% block content %}
     <div id = 'app'>
 
         <h1>My Todo App !</h1>
@@ -63,7 +63,7 @@
             <input class="name" v-model="name" type="text" placeholder="name ...">
             <input class="item" v-model="newTodoItem" type="text" 
                 v-on:keyup.enter="add_todo()" placeholder="type anything welcomed ...">
-            <button v-on:click="add_todo()">ADD</button>
+            <button v-on:click="add_todo()" class="btn btn-primary btn-sm">ADD</button>
         </div>
     
         <ul class="todoList">
@@ -74,9 +74,10 @@
         </ul>
 
     </div>
+{% endblock %}
 
+{% block extra-script %}
     <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
-
     <script>
         var vm = new Vue({
             el: '#app',
@@ -109,6 +110,4 @@
             },
         })
     </script>
-
-</body>
-</html>
+{% endblock %}

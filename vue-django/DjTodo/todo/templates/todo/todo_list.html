@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vue-Django ToDo App</title>
+{% extends 'base.html' %}
 
+{% block title %} todo_list.html{% endblock %}
+
+{% block extra-style %}
     <style>
         body {
             text-align: center;
@@ -50,9 +48,8 @@
             font-size: 20px;
         }
     </style>
-</head>
-
-<body>
+{% endblock %}
+{% block content %}
     <div id = 'app'>
 
         <h1>My Todo App !</h1>
@@ -70,8 +67,4 @@
         </ul>
 
     </div>
-
-    
-
-</body>
-</html>
+{% endblock %}
