@@ -24,3 +24,7 @@ Head First Design Patterns - (20/02/02 ~ )
 
 
 [인프런-유료] Vue.js - Django 연동 웹 프로그래밍 - https://www.inflearn.com/course/vue-js-2# (20/02/08 ~ )
+
+Node.js 교과서 - (2020/02/14 ~ )
+
+한국어 임베딩 - (2020/02/14 ~ )
