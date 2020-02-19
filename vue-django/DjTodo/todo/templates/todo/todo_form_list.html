@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block title %}todo_form.html{% endblock %}
+
+{% block extra-style %}
+    <style>
+        body {
+            text-align: center;
+            background-color: #ddd;
+        }
+        .inputBox {
+            margin: auto;
+            width: 70%;
+            background: white;
+            height: 50px;
+            border-radius: 50px;
+            line-height: 50px;
+        }
+        .inputBox .name {
+            border-style: none;
+            border-bottom: 1px solid #ddd;
+            width: 90px;
+            padding-left: 20px;
+            line-height: 20px;
+        }
+        .inputBox .item {
+            border-style: none;
+            border-bottom: 1px solid #ddd;
+            width: 400px;
+            margin-left: 50px;
+            padding-left: 20px;
+            line-height: 20px;
+        }
+        .todoList {
+            list-style: none;
+            padding: 10px 0;
+            text-align: left;
+        }
+        .todoList li {
+            display: flex;
+            height: 50px;
+            line-height: 50px;
+            margin: 0.5rem 0;
+            padding: 0 0.9rem;
+            background: white;
+            border-radius: 5px;
+        }
+        .removeBtn {
+            margin-left: auto;
+            font-size: 20px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div id = 'app'>
+
+        <h1>My Todo App !</h1>
+        <strong>서로 할 일이나 의견을 공유해 봅시다.</strong>
+        <br>
+
+        <form class="inputBox" action='.' method="post"> {% csrf_token %}
+            <input class="name" name="name" type="text" placeholder="name ...">
+            <input class="item" name="todo" type="text" 
+                placeholder="type anything welcomed ...">
+            <button type="submit" class="btn btn-info btn-sm">ADD</button>
+        </form>
+
+        <ul class="todoList">
+            {% for todo in object_list %}
+            <li>
+                <span>{{ todo.name }}:: {{ todo.todo }}</span>
+                <span class="removeBtn"><a href="{% url 'todo:delete' todo.id %}">&#x00D7</a></span>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+{% endblock %}
