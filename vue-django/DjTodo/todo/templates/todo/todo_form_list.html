@@ -49,6 +49,12 @@
             margin-left: auto;
             font-size: 20px;
         }
+        .removeBtn:hover{
+            color:red;
+        }
+        .modal-footer a {
+            color:white;
+        }
     </style>
 {% endblock %}
 
@@ -70,10 +76,44 @@
             {% for todo in object_list %}
             <li>
                 <span>{{ todo.name }}:: {{ todo.todo }}</span>
-                <span class="removeBtn"><a href="{% url 'todo:delete' todo.id %}">&#x00D7</a></span>
+                <span class="removeBtn" data-toggle="modal" data-target="#myModal"
+                 data-id="{{todo.id}}" data-name="{{todo.name}}" data-todo="{{todo.todo}}">&#x00D7</a></span>
             </li>
             {% endfor %}
         </ul>
+        <!-- Modal -->
+        <div class="modal" id="myModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Are you sure to delete ?</h5>
+                    </div>
+                    <div class="modal-body">
+                        body-text
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-danger btn-sm">
+                            <a href="">Delete</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
+{% endblock %}
+
+{% block extra-script %}
+<script>
+$('#myModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget)
+    var id = button.data('id')
+    var name = button.data('name')
+    var todo = button.data('todo')
+
+    var modal = $(this)
+    modal.find('.modal-body').text(name + '::: ' + todo)
+    modal.find('.modal-footer a').attr('href', '/todo/' + id + '/delete2/')
+})
+</script>
 {% endblock %}

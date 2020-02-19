@@ -39,3 +39,13 @@ class TodoMOMCV(MultipleObjectMixin, CreateView):
     def post(self, request, *args, **kwargs):
         self.object_list = self.get_queryset()
         return super().post(request, *args, **kwargs)
+
+class TodoDelV2(DeleteView):
+    model = Todo
+
+    # get request가 들어왔을 때 바로 삭제하게 만들었으므로 form이 불필요하니 아래 template_name 을 주석 처리
+    #template_name = 'todo/todo_confirm_delete.html'
+    success_url = reverse_lazy('todo:mixin')
+
+    def get(self, request, *args, **kwargs):
+        return self.delete(request, *args, **kwargs)
