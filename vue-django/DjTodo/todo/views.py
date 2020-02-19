@@ -30,7 +30,7 @@ class TodoMOMCV(MultipleObjectMixin, CreateView):
     model = Todo
     fields = '__all__'
     template_name = 'todo/todo_form_list.html'
-    success_url = 'todo:mixin'
+    success_url = reverse_lazy('todo:mixin')
 
     def get(self, request, *args, **kwargs):
         self.object_list = self.get_queryset()
