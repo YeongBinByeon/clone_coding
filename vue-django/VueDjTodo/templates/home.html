@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+
+
+{% load static %}
+
+{% block title %}home.html{% endblock %}
+
+{% block extra-style %}
+<style type="text/css">
+
+.home-window {
+    background-image: url("{% static 'img/lion.jpg' %}");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 500px;
+    border-top: 10px solid #ccc;
+    border-bottom: 10px solid #ccc;
+    color: yellow;
+    padding: 20px 0 0 20px;
+}
+.title {
+    color: #c80;
+    font-weight: bold;
+}
+.powered {
+    position: relative;
+    top: 77%;
+    color: #cc0;
+    font-style: italic;
+}
+
+.footer-wrapper {
+    background: #456;
+    color: #eee;
+    line-height: 50px;
+}
+.footer-wrapper a {
+    color: #ff9;    /* footer-right text */
+}
+.footer-wrapper a:hover {
+    color: #0ff;
+}
+footer ul li {
+    text-align: center;
+}
+
+</style>
+{% endblock extra-style %}
+
+{% block content %}
+    <div class="home-window">
+        <h2 class="title">Django - Python Web Programming</h2>
+        <h4 class="powered"><i class="fas fa-cog"></i> powered by django and bootstrap.</h4>
+    </div>
+
+    <hr style="margin: 10px 0;">
+
+    <div class="row text-center">
+        <div class="col-sm-6">
+            <h3>Todo App</h3>
+            <p>With Todo app, you can manage, prioritize, and complete the most important things
+                you need to do every day. I can focus on the most important things
+                and I can do my day more deliberately.
+                You can also share lists with colleagues, friends, and family.</p>
+        </div>
+        <div class="col-sm-6">
+            <h3>Blog App</h3>
+            <p>This application makes it possible to log daily events or write your own interests
+                such as hobbies, techniques, etc.
+                A typical blog combines text, digital images, and links to other blogs, web pages,
+                and other media related to its topic.</p>
+        </div>
+    </div>
+{% endblock content %}
+
+{% block footer %}
+<footer class="fixed-bottom footer-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p>Copyright &copy; 2019 DjangoBook by shkim</p>
+            </div>
+            <div class="col-md-8">
+                <ul class="list-inline float-right">
+                    <li class="list-inline-item">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="준비중입니다">Introduction</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="준비중입니다">Help</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="준비중입니다">Policy</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="준비중입니다">Something</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock footer %}
+
+{% block extra-script %}
+<script>
+$(function () {
+    $('[data-toggle=tooltip]').tooltip();
+});
+</script>
+{% endblock extra-script %}
