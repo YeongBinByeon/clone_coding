@@ -31,3 +31,5 @@ Node.js 교과서 - (2020/02/14 ~ )
 
 한국어 임베딩 - (2020/02/14 ~ )
  - ~2장 (2/15)
+ 
+Chart JS - https://www.youtube.com/watch?v=AoaR-mT4FTw
