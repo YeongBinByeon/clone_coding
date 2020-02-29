@@ -80,6 +80,7 @@
 
 {% block extra-script %}
     <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
         var vm = new Vue({
             delimiters: ['[[', ']]'],
@@ -87,14 +88,26 @@
             data: {
                 name:'',
                 todo:'',
-                todoList:[
-                    {name:'김석훈', todo:'Django와 Vue.js 연동 프로그램을 만들고 있습니다.'},
-                    {name:'홍길동', todo:'이름을 안쓰면 홍길동으로 나와요...'},
-                    {name:'이순신', todo:'신에게는 아직 열두 척의 배가 있사옵니다.'},
-                    {name:'성춘형', todo:'그네 타기'},
-                    ],
+                todoList:[],
+            },
+            created: function(){
+                console.log("created()...");
+                this.fetch_all_todo();
             },
             methods:{
+                fetch_all_todo: function(){
+                    console.log("fetch_all_todo()...");
+                    
+                    var vm = this;
+                    axios.get('/api/todo/list/')
+                    .then(function (res){
+                        console.log("GET RES", res);
+                        vm.todoList = res.data;
+                    })
+                    .catch(function (err){
+                        console.log("GET ERR", err);
+                    })
+                },
                 add_todo: function(){
                     console.log("add_todo()...");
                     if (this.name == '') this.name = '홍길동';
