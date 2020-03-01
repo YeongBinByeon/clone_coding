@@ -3,12 +3,13 @@ from django.views.generic import ListView, DeleteView
 from django.views.generic.list import BaseListView
 from django.views.generic.edit import BaseDeleteView, BaseCreateView
 # Create your views here.
-from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
 from django.utils.decorators import method_decorator
 from todo.models import Todo
 import json
 from django.forms.models import model_to_dict
 
+@method_decorator(ensure_csrf_cookie, name='dispatch')
 class ApiTodoLV(BaseListView):
     model = Todo
     # template_name 속성은 보여줄 html 파일이 있을때 쓰는 속성인대, 지금 json response를 할 것이기에 이 경우는 보여줄 html이 없기 때문에 안씀
@@ -28,7 +29,7 @@ class ApiTodoLV(BaseListView):
         todoList = list(context['object_list'].values())
         return JsonResponse(data=todoList, safe=False)
 
-@method_decorator(csrf_exempt, name='dispatch')
+#@method_decorator(csrf_exempt, name='dispatch')
 class ApiTodoDelV(BaseDeleteView):
     model = Todo
 
@@ -37,7 +38,7 @@ class ApiTodoDelV(BaseDeleteView):
         self.object.delete()
         return JsonResponse(data={}, safe=True, status=204)
 
-@method_decorator(csrf_exempt, name='dispatch')
+#@method_decorator(csrf_exempt, name='dispatch')
 class ApiTodoCV(BaseCreateView):
     model = Todo
     fields = '__all__'
