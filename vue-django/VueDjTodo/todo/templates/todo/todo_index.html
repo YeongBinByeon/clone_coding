@@ -110,10 +110,20 @@
                 },
                 add_todo: function(){
                     console.log("add_todo()...");
-                    if (this.name == '') this.name = '홍길동';
                     if (this.todo == '') return;
+                    if (this.name == '') this.name = '홍길동';
 
-                    this.todoList.push({name: this.name, todo: this.todo});
+                    var vm = this;
+                    var postData = {name: this.name, todo: this.todo};
+                    axios.post('/api/todo/create/', postData)
+                        .then(function (res){
+                            console.log("POST RES", res);
+                            vm.todoList.push({id: res.data.id, name: res.data.name, todo: res.data.todo});
+                        })
+                        .catch(function (err){
+                            console.log("POST ERR", err);
+                        })
+
                     this.name = this.todo = '';
                 },
                 remove_todo: function(todo, index){

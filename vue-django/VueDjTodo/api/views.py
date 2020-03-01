@@ -1,11 +1,13 @@
 from django.http import JsonResponse
 from django.views.generic import ListView, DeleteView
 from django.views.generic.list import BaseListView
-from django.views.generic.edit import BaseDeleteView
+from django.views.generic.edit import BaseDeleteView, BaseCreateView
 # Create your views here.
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from todo.models import Todo
+import json
+from django.forms.models import model_to_dict
 
 class ApiTodoLV(BaseListView):
     model = Todo
@@ -34,3 +36,26 @@ class ApiTodoDelV(BaseDeleteView):
         self.object = self.get_object()
         self.object.delete()
         return JsonResponse(data={}, safe=True, status=204)
+
+@method_decorator(csrf_exempt, name='dispatch')
+class ApiTodoCV(BaseCreateView):
+    model = Todo
+    fields = '__all__'
+
+    def get_form_kwargs(self):
+        kwargs = super().get_form_kwargs()
+        kwargs['data'] = json.loads(self.request.body)
+        return kwargs
+
+    def form_valid(self, form):
+        print("form_valid()", form)
+        self.object = form.save()
+        newTodo = model_to_dict(self.object)
+        print(f"newTodo: {newTodo}")
+        return JsonResponse(data=newTodo, status=201)
+
+    def form_invalid(self, form):
+        print("form_invalid()", form)
+        print("form_invalid()", self.request.POST)
+        print("form_invalid()", self.request.body.decode('utf8'))
+        return JsonResponse(data=form.errors, status=400)
