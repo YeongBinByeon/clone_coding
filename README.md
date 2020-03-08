@@ -33,3 +33,5 @@ Node.js 교과서 - (2020/02/14 ~ )
  - ~2장 (2/15)
  
 Chart JS - https://www.youtube.com/watch?v=AoaR-mT4FTw
+
+리엑트와 함께 장고 시작하기 complete - (2020/03/07 ~ )
