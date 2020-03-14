@@ -18,6 +18,9 @@ class Post(models.Model):
         # 파이썬 3.7 이전에서 사용하려면 아래와 같이
         #return "Custom Post object ({})".format(self.id)
         return self.message
+
+    class Meta:
+        ordering = ['-id']
     
     # def message_length(self):
     #     return len(self.message)
