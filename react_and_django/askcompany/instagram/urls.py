@@ -11,7 +11,7 @@ class YearConverter:
     # url reverse 시에 호출
     def to_url(self, value):
         return "%04d" % value
-
+# https://github.com/django/django/blob/master/django/urls/converters.py
 register_converter(YearConverter, 'year')
 
 app_name = 'instagram' # URL Reverse에서 namespace 역할을 하게 된다.
