@@ -23,3 +23,6 @@ post_list = ListView.as_view(model=Post)
 def post_detail(request: HttpRequest, pk: int) -> HttpResponse:
     pass
 
+def archives_year(request: HttpRequest, year: int) -> HttpResponse:
+    return HttpResponse(f"{year}년 archives")
+
