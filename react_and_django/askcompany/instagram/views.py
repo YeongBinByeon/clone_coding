@@ -40,6 +40,15 @@ post_list = ListView.as_view(model=Post)
 class PostDetailView(DetailView):
     model = Post
     pk_url_kwarg = 'pk'
+
+    def get_queryset(self):
+        qs = super().get_queryset()
+        #login이 되어있지 않은 경우 공개된 data만 보게 하는 부분
+        if not self.request.user.is_authenticated:
+            qs = qs.filter(is_public=True)
+        return qs
+
+
 post_detail = PostDetailView.as_view()
 
 def archives_year(request: HttpRequest, year: int) -> HttpResponse:
