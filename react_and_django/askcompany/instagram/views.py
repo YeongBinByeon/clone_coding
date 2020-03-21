@@ -5,7 +5,7 @@ from django.views.generic import ListView, DetailView
 # Create your views here.
 from .models import Post
 
-post_list = ListView.as_view(model=Post)
+post_list = ListView.as_view(model=Post, paginate_by=10)
 
 # def post_list(request):
 #     print(request)
