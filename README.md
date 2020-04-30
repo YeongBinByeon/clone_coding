@@ -35,3 +35,5 @@ Node.js 교과서 - (2020/02/14 ~ )
 Chart JS - https://www.youtube.com/watch?v=AoaR-mT4FTw
 
 React와 함께 장고 시작하기 (2020/03/07 ~ )
+
+스트리밍 프로토콜 공부 중 - https://www.youtube.com/watch?v=6t6Si0BWCOo&t=1515s
