@@ -1,2 +1,10 @@
 vue-django/ignore/*
 react_and_django/ignore/*
+react_and_django/django_rest_framework/django_rest_framework/__pycache__/*
+react_and_django/django_rest_framework/django_rest_framework/db.sqlite3
+react_and_django/django_rest_framework/django_rest_framework/static
+react_and_django/django_rest_framework/django_rest_framework/media
+react_and_django/django_rest_framework/django_rest_framework/.idea
+react_and_django/django_rest_framework/django_rest_framework/.vscode
+react_and_django/django_rest_framework/django_rest_framework/env.sh
+react_and_django/django_rest_framework/django_rest_framework/.env
