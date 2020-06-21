@@ -1,4 +1,4 @@
-from django.contrib.auth import get_user_model
+from django.contrib.auth import get_user_model, login as auth_login
 from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
@@ -36,12 +36,19 @@ def profile_edit(request):
         'form':form,
     })
 
-signup = CreateView.as_view(
-    model = User,
-    form_class = UserCreationForm,
-    success_url = settings.LOGIN_URL,
-    template_name='accounts/signup_form.html',
-)
+class SignupView(CreateView):
+    model = User
+    form_class = UserCreationForm
+    success_url = settings.LOGIN_REDIRECT_URL
+    template_name='accounts/signup_form.html'
+
+    def form_valid(self, form):
+        response = super().form_valid(form) # 부모 호출해서 응답 먼저 받아낸다.
+        user = self.object
+        auth_login(self.request, user)
+        return response
+
+signup = SignupView.as_view()
 
 def logout(request):
     pass
