@@ -39,3 +39,5 @@ React와 함께 장고 시작하기 (2020/03/07 ~ )
 스트리밍 프로토콜 공부 중 - https://www.youtube.com/watch?v=6t6Si0BWCOo&t=1515s
 
 [토크ON세미나] Pandas 기본기 다지기 - https://www.youtube.com/watch?v=Nmd2FalBJNk
+
+[ELK 스택] 01 ~ 19  https://www.youtube.com/watch?v=J2PIBQgEpC4&list=PLVNY1HnUlO24LCsgOxR_eK2Yi4sOgH9Pg&index=2&t=0s
