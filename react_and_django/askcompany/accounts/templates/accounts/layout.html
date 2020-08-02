@@ -3,7 +3,7 @@
         <a href="{% url 'signup' %}">회원가입</a>
     </li>
     <li>
-        <a href="{% url 'login'%}">로그인</a>
+        <a href="{% url 'login'%}?next={{ request.get_full_path }}">로그인</a>
     </li>
 {% else %}
     <li>
