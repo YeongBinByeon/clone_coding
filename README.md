@@ -43,3 +43,5 @@ React와 함께 장고 시작하기 (2020/03/07 ~ )
 [ELK 스택] 01 ~ 19  https://www.youtube.com/watch?v=J2PIBQgEpC4&list=PLVNY1HnUlO24LCsgOxR_eK2Yi4sOgH9Pg&index=2&t=0s
 
 파이썬 클린 코드 - (2020/07/17 ~ )
+
+FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w&t=841s (2020/08/20)
