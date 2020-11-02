@@ -49,3 +49,5 @@ FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w
 김기현의 딥러닝을 활용한 자연어처리 입문 올인원 패키지 Online. ( 2020/09/04 ~ )
 
 [생활코딩] 관계형 데이터 모델링 -  https://www.youtube.com/watch?v=qJtOBj7wp7Y&list=PLuHgQVnccGMDF6rHsY9qMuJMd295Yk4sa&index=32
+
+
