@@ -50,4 +50,4 @@ FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w
 
 [생활코딩] 관계형 데이터 모델링 -  https://www.youtube.com/watch?v=qJtOBj7wp7Y&list=PLuHgQVnccGMDF6rHsY9qMuJMd295Yk4sa&index=32
 
-
+git fetch test
