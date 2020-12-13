@@ -51,3 +51,5 @@ FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w
 [생활코딩] 관계형 데이터 모델링 -  https://www.youtube.com/watch?v=qJtOBj7wp7Y&list=PLuHgQVnccGMDF6rHsY9qMuJMd295Yk4sa&index=32
 
 [이것이 MySQL이다] 06. SQL 기본 1~4, 인덱스 1~4, 고급 1~5 - https://www.youtube.com/watch?v=hUXOf8JEupM&list=PLVsNizTWUw7HhYtI-4GGmlJ5yxNdwNI_X&index=18
+
+[토크ON세미나] Jenkins를 활용한 CI/CD 2강 - 젠킨스 개발환경 및 CI/CD 기본 동작 이해 | T아카데미 - https://www.youtube.com/watch?v=3WZoVkvLE4A
