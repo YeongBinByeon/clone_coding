@@ -53,3 +53,5 @@ FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w
 [이것이 MySQL이다] 06. SQL 기본 1~4, 인덱스 1~4, 고급 1~5 - https://www.youtube.com/watch?v=hUXOf8JEupM&list=PLVsNizTWUw7HhYtI-4GGmlJ5yxNdwNI_X&index=18
 
 [토크ON세미나] Jenkins를 활용한 CI/CD 2강 - 젠킨스 개발환경 및 CI/CD 기본 동작 이해 | T아카데미 - https://www.youtube.com/watch?v=3WZoVkvLE4A
+
+(자바강의/JVM메모리구조)JVM 실행 데이터 영역(JVM Runtime Data Area) - https://www.youtube.com/watch?v=MOWjp9UUL54
