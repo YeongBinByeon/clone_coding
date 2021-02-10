@@ -1,0 +1,33 @@
+class Solution:
+    def oddEvenList(self, head: ListNode) -> ListNode:
+        cnt = 0
+        save_second_pointer = None
+        first = head
+        pre = None
+        
+        
+        if head == None:
+            return head
+        
+        while head.next != None:
+            
+            cnt += 1
+            if cnt == 1:
+                save_second_pointer = head.next
+            
+            next_n  = head.next
+            head.next = head.next.next
+            
+        
+            pre = head
+            head = next_n
+            print(pre.val)
+            print(head.val)
+            print("")
+        
+        if cnt % 2 == 1:
+            pre.next = save_second_pointer
+            return first
+        
+        head.next = save_second_pointer
+        return first
