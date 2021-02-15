@@ -1,0 +1,16 @@
+class Solution:
+    def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
+        if len(intervals) == 0:
+            return 0
+        intervals.sort()
+        res = 0
+        now = intervals[0][1]
+        
+        for i in intervals[1:]:
+            if now > i[0]:
+                now = min(now, i[1])
+                res += 1
+            else:
+                now = i[1]
+        return res
+                
