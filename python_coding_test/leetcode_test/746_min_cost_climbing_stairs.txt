@@ -1,0 +1,13 @@
+class Solution:
+    def minCostClimbingStairs(self, cost: List[int]) -> int:
+        INF= 2 ** 10
+        dp_table = [INF] * 1001
+        
+        dp_table[0] = cost[0]
+        dp_table[1] = cost[1]
+        
+        for i in range(2,len(cost)):
+            print(i)
+            dp_table[i] = min(dp_table[i-2] + cost[i], dp_table[i-1] + cost[i])
+        
+        return min( dp_table[len(cost)-1], dp_table[len(cost)-2] )
