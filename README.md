@@ -55,3 +55,5 @@ FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w
 [토크ON세미나] Jenkins를 활용한 CI/CD 2강 - 젠킨스 개발환경 및 CI/CD 기본 동작 이해 | T아카데미 - https://www.youtube.com/watch?v=3WZoVkvLE4A
 
 (자바강의/JVM메모리구조)JVM 실행 데이터 영역(JVM Runtime Data Area) - https://www.youtube.com/watch?v=MOWjp9UUL54
+
+메이븐(Maven) 강의 1~12강 - https://www.youtube.com/watch?v=2fyQm_gfnHk ( ~ 2021/03/29 )
