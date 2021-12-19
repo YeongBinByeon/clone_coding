@@ -6,6 +6,8 @@ import adapter.Electronic110V;
 import adapter.HairDryer;
 import adapter.SocketAdapter;
 import aop.AopBrowser;
+import observer.Button;
+import observer.IButtonListener;
 import proxy.Browser;
 import proxy.BrowserProxy;
 import proxy.IBrowser;
@@ -59,6 +61,20 @@ public class Main {
 		System.out.println("loading time : "+ end.get());
 		aopBorwser.show();
 		System.out.println("loading time : "+ end.get());
+		
+		// observer
+		Button button = new Button("버튼");
+		
+		button.addListener(new IButtonListener() {
+			public void clickEvent(String event) {
+				System.out.println(event);
+			}
+		});
+		button.click("메시지 전달: click1");
+		button.click("메시지 전달: click2");
+		button.click("메시지 전달: click3");
+		button.click("메시지 전달: click4");
+		
 		
 	}
 	
