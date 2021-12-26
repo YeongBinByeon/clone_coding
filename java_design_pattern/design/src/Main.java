@@ -1,3 +1,7 @@
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.concurrent.atomic.AtomicLong;
 
 import adapter.AirConditioner;
@@ -6,6 +10,13 @@ import adapter.Electronic110V;
 import adapter.HairDryer;
 import adapter.SocketAdapter;
 import aop.AopBrowser;
+import decorator.A3;
+import decorator.A4;
+import decorator.A5;
+import decorator.Audi;
+import decorator.AudiDecorator;
+import decorator.ICar;
+import decorator.LowerCaseInputStream;
 import observer.Button;
 import observer.IButtonListener;
 import proxy.Browser;
@@ -74,6 +85,33 @@ public class Main {
 		button.click("메시지 전달: click2");
 		button.click("메시지 전달: click3");
 		button.click("메시지 전달: click4");
+		
+		
+		// decorator
+		ICar audi = new Audi(1000);
+		audi.showPrice();
+		
+		//a3
+		ICar audi3 = new A3(audi,"A3");
+		audi3.showPrice();
+		//a4
+		ICar audi4 = new A4(audi,"A4");
+		audi4.showPrice();
+		
+		//a5
+		ICar audi5 = new A5(audi,"A5");
+		audi5.showPrice();
+		
+		int c;
+		try {
+			InputStream in = new LowerCaseInputStream(new BufferedInputStream(new FileInputStream("test.txt")));
+			while((c=in.read())>=0) {
+				System.out.print((char)c);
+			}
+		}
+		catch(IOException e) {
+			e.printStackTrace();
+		}
 		
 		
 	}
