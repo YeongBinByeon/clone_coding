@@ -22,6 +22,10 @@ import observer.IButtonListener;
 import proxy.Browser;
 import proxy.BrowserProxy;
 import proxy.IBrowser;
+import strategy.AppendStrategy;
+import strategy.Base64Strategy;
+import strategy.Encoder;
+import strategy.NormalStrategy;
 
 public class Main {
 
@@ -114,6 +118,21 @@ public class Main {
 		}
 		
 		
+		// strategy
+		Encoder encoder = new Encoder();
+		
+		Base64Strategy base64Strategy = new Base64Strategy();
+		NormalStrategy normalStrategy = new NormalStrategy();
+		
+		String str = "hello java";
+		
+		System.out.println();
+		encoder.setEncodingStrategy(base64Strategy);
+		System.out.println(encoder.encode(str));
+		encoder.setEncodingStrategy(normalStrategy);
+		System.out.println(encoder.encode(str));
+		encoder.setEncodingStrategy(new AppendStrategy());
+		System.out.println(encoder.encode(str));
 	}
 	
 	public static void connect(Electronic110V electronic110V) {
