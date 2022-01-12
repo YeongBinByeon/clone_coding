@@ -57,3 +57,5 @@ FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w
 (자바강의/JVM메모리구조)JVM 실행 데이터 영역(JVM Runtime Data Area) - https://www.youtube.com/watch?v=MOWjp9UUL54
 
 메이븐(Maven) 강의 1~12강 - https://www.youtube.com/watch?v=2fyQm_gfnHk ( ~ 2021/03/29 )
+
+혼자 공부하는 머신러닝 + 딥러닝 ( 2022-01-02 ~ )
