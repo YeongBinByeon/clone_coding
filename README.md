@@ -59,3 +59,7 @@ FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w
 메이븐(Maven) 강의 1~12강 - https://www.youtube.com/watch?v=2fyQm_gfnHk ( ~ 2021/03/29 )
 
 혼자 공부하는 머신러닝 + 딥러닝 ( 2022-01-02 ~ )
+
+친절한 SQL 튜닝 ( 2022-01-05 ~) 
+-1장 SQL 처리 과정과 I/O (~2022/01/10 )
+-2장 인덱스 기본 (~2022/01/16 )
