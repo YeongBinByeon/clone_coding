@@ -75,3 +75,8 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%
 모든 개발자를 위한 HTTP 웹 기본 지식 ( 2022/03/12 ~ )
 https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/dashboard
 인터넷 네트워크 카테고리 (~03/12)
+
+
+실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 (2022/03/19 ~ 2022/04/03)
+https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard
+
