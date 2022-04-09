@@ -4,6 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import java.util.List;
 
 public class JpaMain {
     public static void main(String[] args){
@@ -22,23 +23,33 @@ public class JpaMain {
 
         tx.begin();
         try{
-            //생성
             Member member = new Member();
-
-            member.setId(4L);
-            member.setName("helloB");
-
+            member.setUsername("member1");
             em.persist(member);
 
-            // 조회
-            Member findMember = em.find(Member.class,1L);
-            
-            //수정
-            // jpa를 통해서 Entity를 가져오면 JPA가 관리를 하고, 변경유무를 트랜잭션 커밋하는 과정에서 다 체크를 한다.
-            // 변경사항 있으면 트랜잭션 커밋 직전 업데이트 쿼리 만들어서 날리고 트랜잭션 커밋한다.
-            findMember.setName("hellojpa");
+            Team team = new Team();
+            team.setName("TeamA");
 
+            member.changeTeam(team);
+            em.persist(team);
+
+
+
+            em.flush();
+            em.clear();
+
+            Team findTeam = em.find(Team.class, team.getId());
+            List<Member> members = findTeam.getMembers();
+            
+            for(Member m : members){
+                System.out.println("m.getUsername() = " + m.getUsername());
+            }
+
+
+
+            // 커밋하는 순간 데이터베이스에 INSERT SQL을 보낸다.
             tx.commit();
+            System.out.println("333");
         } catch (Exception e){
             tx.rollback();
         } finally {
@@ -46,10 +57,8 @@ public class JpaMain {
             em.close();
         }
 
-        em.close();
+
 
         emf.close();
     }
-
-
 }
