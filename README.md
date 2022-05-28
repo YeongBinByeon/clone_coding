@@ -96,3 +96,4 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JP
 
 Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) ( 2022/0514 ~ )
 -설정 암호의 암호화 처리 파트까지 학습 진행
+-데이터 동기화를 위한 Apache Kafka의 활용 (1) 까지 수강 완료(2022-05-28)
