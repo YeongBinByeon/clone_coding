@@ -53,7 +53,9 @@ React와 함께 장고 시작하기 (2020/03/07 ~ )
 
 FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w&t=841s (2020/08/20)
 
-김기현의 딥러닝을 활용한 자연어처리 입문 올인원 패키지 Online. ( 2020/09/04 ~ )
+(패스트캠퍼스) / 김기현의 딥러닝을 활용한 자연어처리 입문 올인원 패키지 Online. ( 2020/09/04 ~ )
+
+(패스트캠퍼스) / Java 웹 개발 마스터 올인원 패키지 Online. ( 2020/10/11 ~ )
 
 [생활코딩] 관계형 데이터 모델링 -  https://www.youtube.com/watch?v=qJtOBj7wp7Y&list=PLuHgQVnccGMDF6rHsY9qMuJMd295Yk4sa&index=32
 
@@ -63,7 +65,19 @@ FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w
 
 (자바강의/JVM메모리구조)JVM 실행 데이터 영역(JVM Runtime Data Area) - https://www.youtube.com/watch?v=MOWjp9UUL54
 
+(패스트캠퍼스) / 한번에 끝내는 Java/Spring 웹 개발 마스터 초격차 패키지 Online. ( 2021/02/06 ~ )
+
 메이븐(Maven) 강의 1~12강 - https://www.youtube.com/watch?v=2fyQm_gfnHk ( ~ 2021/03/29 )
+
+(패스트캠퍼스) / AWS/Docker 실전 클라우드 서버 구축 올인원 패키지 Online. ( 2021/03/14 ~ )
+
+(패스트캠퍼스) / 딥러닝을 활용한 추천시스템 구현 올인원 패키지 Online. ( 2021/04/02 ~ )
+
+(패스트캠퍼스) / 처음부터 시작하는 딥러닝 유치원 Online. ( 2021.04.30 ~ ) - https://fastcampus.co.kr/data_online_pytorch
+
+(패스트캠퍼스) / 박은종의 객체지향 설계를 위한 디자인패턴 with 자바 (2021.06.30 )
+
+(패스트캠퍼스) / 김기현의 BERT, GPT-3를 활용한 자연어처리 ( 2021/12/05 ~ )
 
 혼자 공부하는 머신러닝 + 딥러닝 ( 2022-01-02 ~ )
 
