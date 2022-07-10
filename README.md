@@ -79,55 +79,53 @@ FAQ 챗봇 쉽게 만들어보기! - https://www.youtube.com/watch?v=q9D8jd2723w
 
 (패스트캠퍼스) / 김기현의 BERT, GPT-3를 활용한 자연어처리 ( 2021/12/05 ~ )
 
-혼자 공부하는 머신러닝 + 딥러닝 ( 2022-01-02 ~ )
+(도서) 혼자 공부하는 머신러닝 + 딥러닝 ( 2022-01-02 ~ )
 
-친절한 SQL 튜닝 ( 2022-01-05 ~) 
+(도서) 친절한 SQL 튜닝 ( 2022-01-05 ~) 
 -1장 SQL 처리 과정과 I/O (~2022/01/10 )
 -2장 인덱스 기본 (~2022/01/16 )
 
-제대로 파는 Git & GitHub - by 얄코 - (2022/02/08 ~ )
+(인프런) / 제대로 파는 Git & GitHub - by 얄코 - (2022/02/08 ~ )
 - 강의 섹션 4 까지 수강 (~2022/02/08)
 
-스프링의 핵심 원리 기본편 (2022/03/06 ~ )
+(인프런) / 스프링의 핵심 원리 기본편 (2022/03/06 ~ )
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8
 - 스프링 핵심 원리 이해1 - 예제 만들기 ( ~3/10 ) 
 
 
-모든 개발자를 위한 HTTP 웹 기본 지식 ( 2022/03/12 ~ )
+(인프런) / 모든 개발자를 위한 HTTP 웹 기본 지식 ( 2022/03/12 ~ fin)
 https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/dashboard
 인터넷 네트워크 카테고리 (~03/12)
 
 
-스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술 ( 2022/03/12 ~ )
+(인프런) / 스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술 ( 2022/03/12 ~ )
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard
 
+(인프런) / 자바 ORM 표준 JPA 프로그래밍 - 기본편 (2022/03/21 ~ ) - https://www.inflearn.com/course/ORM-JPA-Basic/dashboard
 
-스프링 핵심 원리 - 기본편 ( 2022/03/12 ~ )
-https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8/dashboard
+(인프런) / 그림으로 쉽게 배우는 운영체제 (2022/03/21 ~ fin) - https://www.inflearn.com/course/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/dashboard
 
-
-실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 (2022/03/19 ~ 2022/04/03)
+(인프런) / 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 (2022/03/19 ~ 2022/04/03)
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard
 
-
-실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 ( 2022/04/04 ~ ) https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94/dashboard
+(인프런) / 실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 ( 2022/04/04 ~ ) https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94/dashboard
 
 
 스프링 부트 쇼핑몰 프로젝트 ( 2022/04/16 ~ 2022/04/27)
 
-Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) ( 2022/05/14 ~ 2022/06/18)
+(인프런) / Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) ( 2022/05/14 ~ 2022/06/18)
 -설정 암호의 암호화 처리 파트까지 학습 진행
 -데이터 동기화를 위한 Apache Kafka의 활용 (1) 까지 수강 완료(2022-05-28)
 -마지막 도커로 이미지 만드는 부분까지 전체 내용 커밋 ( 2022/06/18 )
 
-스프링 DB 1편 - 데이터 접근 핵심 원리 (2022/06/06 ~ )
+(인프런) / 스프링 DB 1편 - 데이터 접근 핵심 원리 (2022/06/06 ~ )
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-1/dashboard
 
-[도서] 오브젝트 책 학습 시작 (2022/06/10)
+(도서) 오브젝트 책 학습 시작 (2022/06/10)
 https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=193681076
 
-풀스택을 위한 도커와 최신 서버 기술(리눅스, nginx, AWS, HTTPS, flask 배포) (2022/06/23 ~ )
+(인프런) / 풀스택을 위한 도커와 최신 서버 기술(리눅스, nginx, AWS, HTTPS, flask 배포) (2022/06/23 ~ )
 https://www.inflearn.com/course/%EC%84%9C%EB%B2%84%EA%B8%B0%EC%88%A0-%ED%92%80%EC%8A%A4%ED%83%9D-3/dashboard
 
 
-[2회차 복습 시작] Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) (2022/07/04 ~ )
+[2회차 복습 시작] / (인프런) /  Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) (2022/07/04 ~ )
