@@ -38,6 +38,13 @@ React와 함께 장고 시작하기 (2020/03/07 ~ )
 
 스트리밍 프로토콜 공부 중 - https://www.youtube.com/watch?v=6t6Si0BWCOo&t=1515s
 
+[파이썬, 장고 프레임워크] 인스타그램 클론코딩 프로젝트 진행 (2020/4/12 ~ 2020/7/14)
+ 구현 기능 (상세 내용 우측 깃 페이지에서 확인 - https://github.com/YeongBinByeon/portfolio/commits/master/askcompany)
+ 1. 회원가입(환영 이메일 보내기), 로그인, 로그아웃
+ 2. 포스팅 쓰기, 포스팅 수정
+ 3. 댓글 쓰기, 댓글 수정
+ 4. 유저 follow, unfollow와 Timeline에 Follow하는 유저의 포스팅만 노출하는 기능
+
 [토크ON세미나] Pandas 기본기 다지기 - https://www.youtube.com/watch?v=Nmd2FalBJNk
 
 [ELK 스택] 01 ~ 19  https://www.youtube.com/watch?v=J2PIBQgEpC4&list=PLVNY1HnUlO24LCsgOxR_eK2Yi4sOgH9Pg&index=2&t=0s
@@ -94,6 +101,19 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JP
 
 스프링 부트 쇼핑몰 프로젝트 ( 2022/04/16 ~ 2022/04/27)
 
-Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) ( 2022/0514 ~ )
+Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) ( 2022/05/14 ~ 2022/06/18)
 -설정 암호의 암호화 처리 파트까지 학습 진행
 -데이터 동기화를 위한 Apache Kafka의 활용 (1) 까지 수강 완료(2022-05-28)
+-마지막 도커로 이미지 만드는 부분까지 전체 내용 커밋 ( 2022/06/18 )
+
+스프링 DB 1편 - 데이터 접근 핵심 원리 (2022/06/06 ~ )
+https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-1/dashboard
+
+[도서] 오브젝트 책 학습 시작 (2022/06/10)
+https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=193681076
+
+풀스택을 위한 도커와 최신 서버 기술(리눅스, nginx, AWS, HTTPS, flask 배포) (2022/06/23 ~ )
+https://www.inflearn.com/course/%EC%84%9C%EB%B2%84%EA%B8%B0%EC%88%A0-%ED%92%80%EC%8A%A4%ED%83%9D-3/dashboard
+
+
+[2회차 복습 시작] Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) (2022/07/04 ~ )
