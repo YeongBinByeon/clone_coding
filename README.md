@@ -134,3 +134,6 @@ https://www.inflearn.com/course/%EC%84%9C%EB%B2%84%EA%B8%B0%EC%88%A0-%ED%92%80%E
 [2회차 복습 시작] / (인프런) /  Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA) (2022/07/04 ~ )
 
 (도서) 도메인 주도 개발 시작하기 책 학습 시작 (2022/07/24)
+
+(유튜브) Java Stream, Lambda 학습 (2022/08/08 ~ 08/12)
+https://www.youtube.com/watch?v=UEyYMi4KYYs&list=PL2lVRutSfJd_84EoQ_4YrXDZFTZ-nfbxy&index=112
