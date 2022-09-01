@@ -138,5 +138,5 @@ https://www.inflearn.com/course/%EC%84%9C%EB%B2%84%EA%B8%B0%EC%88%A0-%ED%92%80%E
 (유튜브) Java Stream, Lambda 학습 (2022/08/08 ~ 08/12)
 https://www.youtube.com/watch?v=UEyYMi4KYYs&list=PL2lVRutSfJd_84EoQ_4YrXDZFTZ-nfbxy&index=112
 
-(인프런) 실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 (2022/08/25 ~ )
+(인프런) 실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 (2022/08/25 ~ 09/01)
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94/dashboard
