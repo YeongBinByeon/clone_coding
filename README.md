@@ -143,3 +143,9 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JP
 
 (인프런) 재고시스템으로 알아보는 동시성이슈 해결방법 (2022/09/13 ~ 09/14)
 https://www.inflearn.com/course/%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%B4%EC%8A%88-%EC%9E%AC%EA%B3%A0%EC%8B%9C%EC%8A%A4%ED%85%9C/dashboard
+
+(인프런) Jenkins를 이용한 CI/CD Pipeline 구축 ( 2022/09/17 ~ )
+https://www.inflearn.com/course/%EC%A0%A0%ED%82%A8%EC%8A%A4-ci-cd-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8/dashboard
+
+(인프런) 스프링 핵심 원리 - 고급편 (2022/09/25 ~ )
+https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8/dashboard
