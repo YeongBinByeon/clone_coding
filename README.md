@@ -1,6 +1,9 @@
 # clone_coding
 유튜브 강의보며 클론코딩한코드 모음
 
+개발하며 이것 저것 날것으로 적은 개인 티스토리 블로그 주소 : https://charactermail.tistory.com/
+
+
 (유튜브) / [토크ON세미나] Vue.js 개발 입문
 https://www.youtube.com/watch?v=xcm4XXWmueU&t=1201s
 
