@@ -1,6 +1,9 @@
 # clone_coding
 유튜브 강의보며 클론코딩한코드 모음
 
+개발하며 이것 저것 날것으로 적은 개인 티스토리 블로그 주소 : https://charactermail.tistory.com/
+
+
 (유튜브) / [토크ON세미나] Vue.js 개발 입문
 https://www.youtube.com/watch?v=xcm4XXWmueU&t=1201s
 
@@ -141,5 +144,14 @@ https://www.youtube.com/watch?v=UEyYMi4KYYs&list=PL2lVRutSfJd_84EoQ_4YrXDZFTZ-nf
 (인프런) 실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 (2022/08/25 ~ 09/01)
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94/dashboard
 
+(패스트캠퍼스) 10개프로젝트로완성하는백엔드웹개발(Java/Spring) 초격차패키지Online. 
+Part 1. 나만의 MVC 프레임워크 만들기 부분만 수강, 나머지 강의는 그닥..(객체지향 연습, DI 프레임워크 만들기 부분) (2022/09/04 ~ 09/11)
+
 (인프런) 재고시스템으로 알아보는 동시성이슈 해결방법 (2022/09/13 ~ 09/14)
 https://www.inflearn.com/course/%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%B4%EC%8A%88-%EC%9E%AC%EA%B3%A0%EC%8B%9C%EC%8A%A4%ED%85%9C/dashboard
+
+(인프런) Jenkins를 이용한 CI/CD Pipeline 구축 ( 2022/09/17 ~ )
+https://www.inflearn.com/course/%EC%A0%A0%ED%82%A8%EC%8A%A4-ci-cd-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8/dashboard
+
+(인프런) 스프링 핵심 원리 - 고급편 (2022/09/25 ~ )
+https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8/dashboard
