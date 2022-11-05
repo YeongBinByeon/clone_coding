@@ -1,0 +1,32 @@
+
+server:
+  port: 9090
+
+spring:
+  profiles:
+    active: local
+  application:
+
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/springdb?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: root
+
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+#    open-in-view: false
+#    show-sql: true
+#    hibernate:
+#      format_sql: true
+#      ddl-auto: 'create'
+logging:
+  level:
+    org:
+      springframework:
+        jdbc: debug
