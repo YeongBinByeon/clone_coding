@@ -157,3 +157,9 @@ https://www.inflearn.com/course/%EC%A0%A0%ED%82%A8%EC%8A%A4-ci-cd-%ED%8C%8C%EC%9
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8/dashboard
 - 빈 후처리기 카테고리 까지 학습 (강의 진행률 65.6%, 2022-10-16)
 
+(도서) 클린 코드 (2022/10/21 ~ )
+- 1 ~ 12장까지 속독 1회독 ( ~ 2022/10/23)
+- 1,2,3,5,6,10 장 블로그에 다시 보며 정리 2회독 ( ~ 2022/10/29)
+
+(인프런) 스프링 DB 2편 - 데이터 접근 활용 기술 (2022/11/02 ~ )
+https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-2#curriculum
