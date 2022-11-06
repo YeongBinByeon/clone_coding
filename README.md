@@ -163,3 +163,5 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%
 
 (인프런) 스프링 DB 2편 - 데이터 접근 활용 기술 (2022/11/02 ~ )
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-2#curriculum
+
+(패스트캠퍼스) 스프링 배치 프로젝트 강의 클론코딩 진행 / PT 이용권 관리 서비스 (2022/11/06 ~ )
