@@ -165,3 +165,5 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-2#curriculum
 
 (패스트캠퍼스) 스프링 배치 프로젝트 강의 클론코딩 진행 / PT 이용권 관리 서비스 (2022/11/06 ~ )
+
+(패스트캠퍼스) 대규모 트래픽을 고려한 간단한 SNS 서비스 ( 2022/11/19 ~ 2022/11/30 )
