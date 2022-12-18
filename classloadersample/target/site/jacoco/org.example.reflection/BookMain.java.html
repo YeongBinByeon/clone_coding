@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>BookMain.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">classloadersample</a> &gt; <a href="index.source.html" class="el_package">org.example.reflection</a> &gt; <span class="el_source">BookMain.java</span></div><h1>BookMain.java</h1><pre class="source lang-java linenums">package org.example.reflection;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+<span class="nc" id="L8">public class BookMain {</span>
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchFieldException {
+<span class="nc" id="L10">        Class&lt;?&gt; bookClass = Class.forName(&quot;org.example.reflection.Book&quot;);</span>
+<span class="nc" id="L11">        Constructor&lt;?&gt; constructor = bookClass.getConstructor(String.class);</span>
+<span class="nc" id="L12">        Book book = (Book) constructor.newInstance(&quot;myBook&quot;);</span>
+<span class="nc" id="L13">        System.out.println(book);</span>
+
+<span class="nc" id="L15">        Field a = Book.class.getDeclaredField(&quot;A&quot;);</span>
+<span class="nc" id="L16">        System.out.println(a.get(null));</span>
+
+<span class="nc" id="L18">        Field b = Book.class.getDeclaredField(&quot;B&quot;);</span>
+<span class="nc" id="L19">        b.setAccessible(true);</span>
+<span class="nc" id="L20">        System.out.println(b.get(book));</span>
+
+<span class="nc" id="L22">        b.set(book, &quot;BBBBB&quot;);</span>
+<span class="nc" id="L23">        System.out.println(b.get(book));</span>
+
+<span class="nc" id="L25">        Method c = Book.class.getDeclaredMethod(&quot;c&quot;);</span>
+<span class="nc" id="L26">        c.setAccessible(true);</span>
+<span class="nc" id="L27">        c.invoke(book);</span>
+
+<span class="nc" id="L29">        Method d = Book.class.getDeclaredMethod(&quot;sum&quot;, int.class, int.class);</span>
+<span class="nc" id="L30">        int invoke = (int) d.invoke(book, 1, 2);</span>
+<span class="nc" id="L31">        System.out.println(invoke);</span>
+<span class="nc" id="L32">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>
