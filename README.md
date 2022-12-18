@@ -167,3 +167,6 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-2#curriculum
 (패스트캠퍼스) 스프링 배치 프로젝트 강의 클론코딩 진행 / PT 이용권 관리 서비스 (2022/11/06 ~ )
 
 (패스트캠퍼스) 대규모 트래픽을 고려한 간단한 SNS 서비스 ( 2022/11/19 ~ 2022/11/30 )
+
+(인프런) 더 자바, 코드를 조작하는 다양한 방법 ( 2022/12/16 ~ )
+https://www.inflearn.com/course/the-java-code-manipulation/dashboard
