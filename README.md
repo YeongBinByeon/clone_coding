@@ -176,3 +176,6 @@ https://www.inflearn.com/course/java-to-kotlin/dashboard
 
 (인프런) Java TPC (생각하고, 표현하고, 코딩하고) ( 2022/12/25 ~ )
 https://www.inflearn.com/course/%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/dashboard
+
+(인프런) [데브원영] 아파치 카프카 for beginners ( 2022/12/26 ~ )
+https://www.inflearn.com/course/%EC%95%84%ED%8C%8C%EC%B9%98-%EC%B9%B4%ED%94%84%EC%B9%B4-%EC%9E%85%EB%AC%B8/dashboard
