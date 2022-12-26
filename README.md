@@ -168,5 +168,11 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-2#curriculum
 
 (패스트캠퍼스) 대규모 트래픽을 고려한 간단한 SNS 서비스 ( 2022/11/19 ~ 2022/11/30 )
 
-(인프런) 더 자바, 코드를 조작하는 다양한 방법 ( 2022/12/16 ~ )
+(인프런) 더 자바, 코드를 조작하는 다양한 방법 ( 2022/12/16 ~ 12/22 )
 https://www.inflearn.com/course/the-java-code-manipulation/dashboard
+
+(인프런) 자바 개발자를 위한 코틀린 입문(Java to Kotlin Starter Guide) ( 2022/12/25 ~ )
+https://www.inflearn.com/course/java-to-kotlin/dashboard
+
+(인프런) Java TPC (생각하고, 표현하고, 코딩하고)
+https://www.inflearn.com/course/%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/dashboard
