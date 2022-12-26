@@ -174,5 +174,5 @@ https://www.inflearn.com/course/the-java-code-manipulation/dashboard
 (인프런) 자바 개발자를 위한 코틀린 입문(Java to Kotlin Starter Guide) ( 2022/12/25 ~ )
 https://www.inflearn.com/course/java-to-kotlin/dashboard
 
-(인프런) Java TPC (생각하고, 표현하고, 코딩하고)
+(인프런) Java TPC (생각하고, 표현하고, 코딩하고) ( 2022/12/25 ~ )
 https://www.inflearn.com/course/%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/dashboard
