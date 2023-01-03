@@ -179,3 +179,6 @@ https://www.inflearn.com/course/%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8-%ED%94%84%
 
 (인프런) [데브원영] 아파치 카프카 for beginners ( 2022/12/26 ~ )
 https://www.inflearn.com/course/%EC%95%84%ED%8C%8C%EC%B9%98-%EC%B9%B4%ED%94%84%EC%B9%B4-%EC%9E%85%EB%AC%B8/dashboard
+
+(인프런) 실전! 코틀린과 스프링 부트로 도서관리 애플리케이션 개발하기 (Java 프로젝트 리팩토링) ( 2022/12/29 ~ )
+https://www.inflearn.com/course/java-to-kotlin-2
