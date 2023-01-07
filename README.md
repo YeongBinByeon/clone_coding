@@ -182,3 +182,6 @@ https://www.inflearn.com/course/%EC%95%84%ED%8C%8C%EC%B9%98-%EC%B9%B4%ED%94%84%E
 
 (인프런) 실전! 코틀린과 스프링 부트로 도서관리 애플리케이션 개발하기 (Java 프로젝트 리팩토링) ( 2022/12/29 ~ )
 https://www.inflearn.com/course/java-to-kotlin-2
+
+(패스트캠퍼스) 5가지 기능의 대출 도메인 프로젝트 ( 2023/01/06 ~ )
+ - 대출 상담 기능 개발 ( ~ 2023/01/08 )
