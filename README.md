@@ -168,5 +168,20 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-2#curriculum
 
 (패스트캠퍼스) 대규모 트래픽을 고려한 간단한 SNS 서비스 ( 2022/11/19 ~ 2022/11/30 )
 
-(인프런) 더 자바, 코드를 조작하는 다양한 방법 ( 2022/12/16 ~ )
+(인프런) 더 자바, 코드를 조작하는 다양한 방법 ( 2022/12/16 ~ 12/22 )
 https://www.inflearn.com/course/the-java-code-manipulation/dashboard
+
+(인프런) 자바 개발자를 위한 코틀린 입문(Java to Kotlin Starter Guide) ( 2022/12/25 ~ )
+https://www.inflearn.com/course/java-to-kotlin/dashboard
+
+(인프런) Java TPC (생각하고, 표현하고, 코딩하고) ( 2022/12/25 ~ )
+https://www.inflearn.com/course/%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/dashboard
+
+(인프런) [데브원영] 아파치 카프카 for beginners ( 2022/12/26 ~ )
+https://www.inflearn.com/course/%EC%95%84%ED%8C%8C%EC%B9%98-%EC%B9%B4%ED%94%84%EC%B9%B4-%EC%9E%85%EB%AC%B8/dashboard
+
+(인프런) 실전! 코틀린과 스프링 부트로 도서관리 애플리케이션 개발하기 (Java 프로젝트 리팩토링) ( 2022/12/29 ~ )
+https://www.inflearn.com/course/java-to-kotlin-2
+
+(패스트캠퍼스) 5가지 기능의 대출 도메인 프로젝트 ( 2023/01/06 ~ )
+ - 대출 상담 기능 개발 ( ~ 2023/01/08 )
