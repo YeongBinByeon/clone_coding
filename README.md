@@ -186,5 +186,8 @@ https://www.inflearn.com/course/java-to-kotlin-2
 (패스트캠퍼스) 5가지 기능의 대출 도메인 프로젝트 ( 2023/01/06 ~ )
  - 대출 상담 기능 개발 ( ~ 2023/01/08 )
  
-(인프런) 객체 지향 프로그래밍 입문 ( 2023/01/19 ~ )
+(인프런) 객체 지향 프로그래밍 입문 ( 2023/01/19 ~ 2023/01/21 )
 https://www.inflearn.com/course/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9E%85%EB%AC%B8/dashboard
+
+(인프런) JPA & Spring Data JPA 기초 ( 2023/01/24 ~ )
+https://www.inflearn.com/course/jpa-spring-data-%EA%B8%B0%EC%B4%88
