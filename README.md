@@ -191,3 +191,5 @@ https://www.inflearn.com/course/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%
 
 (인프런) JPA & Spring Data JPA 기초 ( 2023/01/24 ~ 2023/01/28 )
 https://www.inflearn.com/course/jpa-spring-data-%EA%B8%B0%EC%B4%88
+
+[2회차 복습] (패스트캠퍼스) / 박은종의 객체지향 설계를 위한 디자인패턴 with 자바 (2023.02.02 ~ 2023.02.13 )
