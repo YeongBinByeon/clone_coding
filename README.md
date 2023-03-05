@@ -4,6 +4,8 @@
 개발하며 이것 저것 날것으로 적은 개인 티스토리 블로그 주소 : https://charactermail.tistory.com/
 
 
+
+
 (유튜브) / [토크ON세미나] Vue.js 개발 입문
 https://www.youtube.com/watch?v=xcm4XXWmueU&t=1201s
 
@@ -196,4 +198,6 @@ https://www.inflearn.com/course/jpa-spring-data-%EA%B8%B0%EC%B4%88
 
 (도서) [1회차] 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴, 최범균 ( 2023/02/16 ~ 2023/02/23 )
 
-(도서) [2차] 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴, 최범균 ( 2023/02/24 ~  )
+(도서) [2차] 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴, 최범균 ( 2023/02/24 ~  2023/03/05 )
+- 객체지향, SOLID, DI 부분까지 2회독 완료 및 블로그에 정리
+- https://charactermail.tistory.com/593
