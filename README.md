@@ -210,5 +210,5 @@ https://www.inflearn.com/course/jpa-spring-data-%EA%B8%B0%EC%B4%88
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC-%ED%99%9C%EC%9A%A9/dashboard
 
 (도서) [3차] 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴, 최범균 ( 2023/03/11 ~ 2023/03/22 )
-- 객체 지향, 설계 원칙, DI 내용 3회차 
-https://charactermail.tistory.com/603
+- 객체 지향, 설계 원칙, DI 내용 3회차
+- https://charactermail.tistory.com/603
