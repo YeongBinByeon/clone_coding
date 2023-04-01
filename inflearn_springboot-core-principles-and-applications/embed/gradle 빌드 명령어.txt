@@ -1,0 +1,2 @@
+gradlew clean buildJar -Dorg.gradle.java.home="C:/java/jdk-17.0.6"
+gradlew clean buildFatJar -Dorg.gradle.java.home="C:/java/jdk-17.0.6"
