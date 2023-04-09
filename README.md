@@ -212,3 +212,6 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%E
 (도서) [3차] 개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴, 최범균 ( 2023/03/11 ~ 2023/03/22 )
 - 객체 지향, 설계 원칙, DI 내용 3회차
 - https://charactermail.tistory.com/603
+
+서블릿, 서블릿 컨테이너, 멀티 쓰레드, 톰캣 관련 내용 재학습 후 정리 ( 2023/03/26 ~ 2023/04/02 )
+- https://charactermail.tistory.com/609
