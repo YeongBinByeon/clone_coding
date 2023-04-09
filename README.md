@@ -215,3 +215,6 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%E
 
 서블릿, 서블릿 컨테이너, 멀티 쓰레드, 톰캣 관련 내용 재학습 후 정리 ( 2023/03/26 ~ 2023/04/02 )
 - https://charactermail.tistory.com/609
+
+(유튜브) Kubernetes 개념 잡기 ( 2023/04/10 )
+- https://www.youtube.com/watch?v=7CPFJZZF60E
