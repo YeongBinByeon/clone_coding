@@ -205,6 +205,7 @@ https://www.inflearn.com/course/jpa-spring-data-%EA%B8%B0%EC%B4%88
 (패스트캠퍼스) 5가지 기능의 대출 도메인 프로젝트
  - 이후 강의 업데이트 되어서 계속 
  - 대출 신청 기능 개발 ( 2023/03/05 ~ 2023/03/11 )
+ - 컨테이너 환경 배포 최종까지 완료 ( ~ 2023/04/24 )
 
 (인프런) 스프링 부트 - 핵심 원리와 활용 (2023/03/11 ~ 2023/04/14 )
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC-%ED%99%9C%EC%9A%A9/dashboard
