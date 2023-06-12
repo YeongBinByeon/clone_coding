@@ -1,5 +1,7 @@
 package jpabook.jpashop.service;
 
+import jpabook.jpashop.api.MemberApiController;
+import jpabook.jpashop.controller.MemberController;
 import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
@@ -22,6 +24,12 @@ public class MemberService {
         validateDuplicateMember(member);
         memberRepository.save(member);
         return member.getId();
+    }
+
+    @Transactional
+    public void update(Long id, String name){
+        Member member = memberRepository.findOne(id);
+        member.setName(name);
     }
 
     private void validateDuplicateMember(Member member){
