@@ -1,18 +1,15 @@
 package jpabook.jpashop.api;
 
-import jpabook.jpashop.domain.Address;
 import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.service.MemberService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Controller;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -64,14 +61,17 @@ public class MemberApiController {
 
     @Data
     @AllArgsConstructor
-    static class Result<T>{
+    @NoArgsConstructor
+    public static class Result<T>{
         private int count;
         private T data;
+
     }
 
     @Data
     @AllArgsConstructor
-    static class MemberDto{
+    @NoArgsConstructor
+    static public class MemberDto{
         private String name;
     }
 
