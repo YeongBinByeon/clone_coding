@@ -235,3 +235,5 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JP
 https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=317906454
 
 (패스트캠퍼스) 간편결제 프로젝트로 한 번에 끝내는 실전 MSA 초격차 패키지 Online. ( 2023/07/15 ~ )
+
+(도서) [2회차] 내 코드가 그렇게 이상한가요? ( 2023/07/17 ~ )
