@@ -239,3 +239,5 @@ https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=317906454
 (도서) [2회차] 내 코드가 그렇게 이상한가요? ( 2023/07/17 ~ 2023/07/28)
 - 블로그에 핵심 내용도 함께 정리 시작
 - https://charactermail.tistory.com/641
+  
+(도서) 프로덕트 매니지먼트 ( 2023/08/03 ~ )
