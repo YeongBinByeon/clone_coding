@@ -244,6 +244,15 @@ https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=317906454
 
 (패스트캠퍼스) [2회차] 대규모 트래픽을 고려한 간단한 SNS 서비스 ( 2023/08/08 ~ 2023/09/03 )
 
+(유튜브) [우아콘2020] 배달의민족 마이크로서비스 여행기 (2023/09/22 )
+https://www.youtube.com/watch?v=BnS6343GTkY
+
+(유튜브) 당신의 기술부채는 안녕하십니까? 배민선물하기 다시 만들기 #우아콘2021 #첫째날_배민비하인드 (2023/09/22 )
+https://www.youtube.com/watch?v=HqSBwoczIMM&t=5s
+
+(유튜브) 회원시스템 이벤트기반 아키텍처 구축하기 #우아콘2022 #Day2_음식그이상의것을문앞으로
+https://www.youtube.com/watch?v=b65zIH7sDug
+
 (도서) 클린 소프트웨어 ( 2023/09/06 ~ )
 
 (도서) 육각형 개발자 ( 2023/09/10 ~ 2023/09/19 )
