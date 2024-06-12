@@ -271,3 +271,5 @@ https://www.youtube.com/watch?v=b65zIH7sDug
 
 (AWS Training) Architecting on AWS (Korean) ( 2024/04/17 ~ 2024/04/19 )
 [https://www.aws.training/](https://www.aws.training/SessionSearch?pageNumber=1&courseId=10002)
+
+(인프런) 실무 중심! FE 입문자를 위한 React ( 2024/06/10 ~ )
