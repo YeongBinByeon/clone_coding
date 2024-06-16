@@ -267,7 +267,7 @@ https://www.youtube.com/watch?v=b65zIH7sDug
 
 (인프런) 스타트업 성장과 함께하는 AWS 클라우드 아키텍쳐 올인원 ( 2024/03/14 ~ 2024/03/22 )
 
-(인프런) 토비의 스프링 부트 - 이해와 원리 ( 2024/04/15 ~ )
+(인프런) 토비의 스프링 부트 - 이해와 원리 ( 2024/04/15 ~ 2024/06/17 )
 
 (AWS Training) Architecting on AWS (Korean) ( 2024/04/17 ~ 2024/04/19 )
 [https://www.aws.training/](https://www.aws.training/SessionSearch?pageNumber=1&courseId=10002)
