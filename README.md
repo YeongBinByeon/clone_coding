@@ -273,3 +273,5 @@ https://www.youtube.com/watch?v=b65zIH7sDug
 [https://www.aws.training/](https://www.aws.training/SessionSearch?pageNumber=1&courseId=10002)
 
 (인프런) 실무 중심! FE 입문자를 위한 React ( 2024/06/10 ~ )
+
+(도서) 더 나은 프로그래머 되는 법 ( 2024/06/15 ~ 2024/07/17 )
