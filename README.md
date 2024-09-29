@@ -283,3 +283,6 @@ https://www.youtube.com/watch?v=b65zIH7sDug
 (인프런) [웹 개발 풀스택 코스] Vue.js 프로젝트 투입 일주일 전 - 기초에서 실무까지 ( 2024/09/08 ~ )
 
 (인프런) 프론트엔드 날개달기: Vue, React 배우기 전에 꼭 알아야하는 지식 ( 2024/09/13 ~ 2024/09/19 )
+
+(인프런) 실전! 스프링 데이터 JPA ( 2024/09/26 ~ )
+https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EC%8B%A4%EC%A0%84/dashboard
