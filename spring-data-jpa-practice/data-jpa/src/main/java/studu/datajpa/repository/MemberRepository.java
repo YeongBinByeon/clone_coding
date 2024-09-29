@@ -11,7 +11,7 @@ import javax.persistence.LockModeType;
 import javax.persistence.QueryHint;
 import java.util.List;
 
-public interface MemberRepository extends JpaRepository<Member, Long> {
+public interface MemberRepository extends JpaRepository<Member, Long>, MemberRepositoryCustom {
     List<Member> findByUsernameAndAgeGreaterThan(String username, int age);
 
     @Query("select new study.datajpa.dto.MemberDto(m.id, m.username, t.name) from Member m join m.team t")
