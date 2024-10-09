@@ -289,3 +289,5 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%E
 
 (인프런) [2회차] / 자바 ORM 표준 JPA 프로그래밍 - 기본편 (2024/09/30 ~ )
 https://www.inflearn.com/course/ORM-JPA-Basic/dashboard
+
+(패스트캠퍼스) Spring Batch + 호갱노노 배치 시스템 만들기 ( 2024/10/10 ~ )
