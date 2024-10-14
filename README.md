@@ -287,7 +287,7 @@ https://www.youtube.com/watch?v=b65zIH7sDug
 (인프런) 실전! 스프링 데이터 JPA ( 2024/09/26 ~ )
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EC%8B%A4%EC%A0%84/dashboard
 
-(인프런) [2회차] / 자바 ORM 표준 JPA 프로그래밍 - 기본편 (2024/09/30 ~ )
+(인프런) [2회차] / 자바 ORM 표준 JPA 프로그래밍 - 기본편 (2024/09/30 ~ 2024/10/14 )
 https://www.inflearn.com/course/ORM-JPA-Basic/dashboard
 
 (패스트캠퍼스) Spring Batch + 호갱노노 배치 시스템 만들기 ( 2024/10/10 ~ )
