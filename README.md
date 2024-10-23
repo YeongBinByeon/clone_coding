@@ -299,3 +299,6 @@ https://www.youtube.com/watch?v=X_cEntB45rM
 
 (유튜브) 넥사크로 14 / 투비소프트 에듀 ( 2024/10/20 ~ )
 https://www.youtube.com/watch?v=IUg59OOgF5E&list=PL103FbwuueMmZS4F5Qe4H5B9CLB8owYNA&index=2
+
+(강의) 빠르게 마스터하는 타입스크립트 ( 2024/10/22 ~ )
+https://codingapple.com/course/typescript-crash-course/
