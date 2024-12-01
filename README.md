@@ -292,7 +292,7 @@ https://www.inflearn.com/course/ORM-JPA-Basic/dashboard
 
 (패스트캠퍼스) Spring Batch + 호갱노노 배치 시스템 만들기 ( 2024/10/10 ~ )
 
-(유튜브) BizActor / YouTube 에서 배우는 DevOn NCD ( 2024/10/19 ~ )
+(유튜브) BizActor / YouTube 에서 배우는 DevOn NCD ( 2024/10/19 ~ 2024/12/01 )
 https://wikidocs.net/133407
 https://www.youtube.com/watch?v=7m0uC7FIjTo
 https://www.youtube.com/watch?v=X_cEntB45rM
