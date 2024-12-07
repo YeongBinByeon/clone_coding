@@ -315,3 +315,4 @@ https://codingapple.com/course/javascript-jquery-ui/
 (강의) 매우쉽게 알려주는 git & github ( 2024/12/07 ~ 2024/12/07 )
 https://codingapple.com/course/git-and-github/
 
+(도서) [2회차] 육각형 개발자 ( 2024/12/07 ~ ) 
