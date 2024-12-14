@@ -303,7 +303,7 @@ https://www.youtube.com/watch?v=IUg59OOgF5E&list=PL103FbwuueMmZS4F5Qe4H5B9CLB8ow
 (강의) 빠르게 마스터하는 타입스크립트 ( 2024/10/22 ~ 2024/10/30 )
 https://codingapple.com/course/typescript-crash-course/
 
-(강의) React 리액트 기초부터 쇼핑몰 프로젝트까지! ( 2024/10/27 ~ )
+(강의) React 리액트 기초부터 쇼핑몰 프로젝트까지! ( 2024/10/27 ~ 2024/12/14 )
 https://codingapple.com/course/react-basic/
 
 (강의) 한 번에 끝내는 SQL & Database ( 2024/11/13 ~ )
