@@ -306,7 +306,7 @@ https://codingapple.com/course/typescript-crash-course/
 (강의) React 리액트 기초부터 쇼핑몰 프로젝트까지! ( 2024/10/27 ~ 2024/12/14 )
 https://codingapple.com/course/react-basic/
 
-(강의) 한 번에 끝내는 SQL & Database ( 2024/11/13 ~ )
+(강의) 한 번에 끝내는 SQL & Database ( 2024/11/13 ~ 2024/12/29 )
 https://codingapple.com/course/sql-and-database/
 
 (강의) JavaScript 입문과 웹 UI개발 ( 2024/11/13 ~ )
