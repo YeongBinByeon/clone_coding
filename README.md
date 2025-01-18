@@ -315,7 +315,7 @@ https://codingapple.com/course/javascript-jquery-ui/
 (강의) 매우쉽게 알려주는 git & github ( 2024/12/07 ~ 2024/12/07 )
 https://codingapple.com/course/git-and-github/
 
-(도서) [2회차] 육각형 개발자 ( 2024/12/07 ~ ) 
+(도서) [2회차] 육각형 개발자 ( 2024/12/07 ~ 2025/01/08 ) 
 
 (강의) 쉽게 배우는 Spring Boot & JPA ( 2024/12/08 ~ )
 https://codingapple.com/course/spring-boot-jpa/
@@ -325,4 +325,7 @@ https://codingapple.com/course/docker-and-container/
 
 (강의) 실무에 바로 적용하는 프런트엔드 테스트 - 1부. 테스트 기초: 단위・통합 테스트 ( 2024/12/29 ~ )
 https://www.inflearn.com/course/%EC%8B%A4%EB%AC%B4%EC%A0%81%EC%9A%A9-%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-1%EB%B6%80
+
+(강의) [2회차] 빠르게 마스터하는 타입스크립트 ( 2024/12/22 ~ )
+https://codingapple.com/course/typescript-crash-course/
 
