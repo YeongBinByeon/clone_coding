@@ -330,3 +330,5 @@ https://www.inflearn.com/course/%EC%8B%A4%EB%AC%B4%EC%A0%81%EC%9A%A9-%ED%94%84%E
 https://codingapple.com/course/typescript-crash-course/
 
 (도서) OS가 보이는 그림책 ( 2025/01/18 ~ 2025/01/19 )
+
+(도서) [2회차] 친절한 SQL 튜닝 ( 2025/01/25 ~ )
