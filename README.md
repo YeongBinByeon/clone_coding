@@ -312,6 +312,9 @@ https://codingapple.com/course/sql-and-database/
 (강의) JavaScript 입문과 웹 UI개발 ( 2024/11/13 ~ )
 https://codingapple.com/course/javascript-jquery-ui/
 
+(강의) HTML/CSS All-in-one : 기초부터 Bootstrap, SASS, 고급 animation 까지 ( 2024/11/13 ~ 2025/02/01 )
+https://codingapple.com/course/html-basics/
+
 (강의) 매우쉽게 알려주는 git & github ( 2024/12/07 ~ 2024/12/07 )
 https://codingapple.com/course/git-and-github/
 
