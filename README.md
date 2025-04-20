@@ -309,7 +309,7 @@ https://codingapple.com/course/react-basic/
 (강의) 한 번에 끝내는 SQL & Database ( 2024/11/13 ~ 2024/12/29 )
 https://codingapple.com/course/sql-and-database/
 
-(강의) JavaScript 입문과 웹 UI개발 ( 2024/11/13 ~ )
+(강의) JavaScript 입문과 웹 UI개발 ( 2024/11/13 ~ 2025/02/01 )
 https://codingapple.com/course/javascript-jquery-ui/
 
 (강의) HTML/CSS All-in-one : 기초부터 Bootstrap, SASS, 고급 animation 까지 ( 2024/11/13 ~ 2025/02/01 )
@@ -338,6 +338,6 @@ https://codingapple.com/course/typescript-crash-course/
 
 (도서) [3회차] 친절한 SQL 튜닝 ( 2025/02/16 ~ 2025/04/09 )
 
-(도서) 그림으로 배우는 HTTP & Network ( 2025/03/04 ~ )
+(도서) 그림으로 배우는 HTTP & Network ( 2025/03/04 ~ 2025/04/20 )
 
 (도서) [2회차] 테스트주도 개발 시작하기 ( 2025/04/13 ~  )
