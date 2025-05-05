@@ -320,7 +320,7 @@ https://codingapple.com/course/git-and-github/
 
 (도서) [2회차] 육각형 개발자 ( 2024/12/07 ~ 2025/01/08 ) 
 
-(강의) 쉽게 배우는 Spring Boot & JPA ( 2024/12/08 ~ )
+(강의) 쉽게 배우는 Spring Boot & JPA ( 2024/12/08 ~ 2025/05/05 )
 https://codingapple.com/course/spring-boot-jpa/
 
 (강의) Docker & Container ( 2024/12/16 ~ )
