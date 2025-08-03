@@ -1,5 +1,4 @@
 # clone_coding
-유튜브 강의보며 클론코딩한코드 모음
 
 개발하며 이것 저것 날것으로 적은 개인 티스토리 블로그 주소 : https://charactermail.tistory.com/
 
@@ -341,4 +340,6 @@ https://codingapple.com/course/typescript-crash-course/
 (인프런) 토비의 스프링 6 - 이해와 원리 ( 2025/05/05 ~ )
 
 (인프런) 스프링 배치 ( 2025/05/05 ~ )
+
+(인프런) 김영한의 실전 데이터베이스 입문 ( 2025/08/03 ~ )
 
