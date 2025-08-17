@@ -343,3 +343,4 @@ https://codingapple.com/course/typescript-crash-course/
 
 (인프런) 김영한의 실전 데이터베이스 입문 ( 2025/08/03 ~ 2025/08/17 )
 
+(인프런) 김영한의 실전 데이터베이스 - 기본편 ( 2025/08/17 ~ )
