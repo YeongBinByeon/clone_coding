@@ -348,3 +348,6 @@ https://codingapple.com/course/typescript-crash-course/
 (인프런) 김영한의 실전 데이터베이스 - 기본편 ( 2025/08/17 ~ )
 
 (인프런) 시스템 디자인 첫걸음: 면접에서 돋보이는 백엔드 아키텍처 설계하기 ( 2025/08/26 ~ )
+
+(강의) [2회차] React 리액트 기초부터 쇼핑몰 프로젝트까지! ( 2025/08/01 ~ 2024/10/11 ) 
+https://codingapple.com/course/react-basic/
