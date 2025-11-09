@@ -355,3 +355,6 @@ https://codingapple.com/course/react-basic/
 (도서) 밑바닥부터 시작하는 웹 브라우저 ( 2025/11/01 ~ 2025/11/08 )
 
 (도서) 현장에서 통하는 도메인 주도 설계 실전 가이드  ( 2025/11/01 ~ 2025/11/08 )
+
+(강의) [2회차] HTML/CSS All-in-one : 기초부터 Bootstrap, SASS, 고급 animation 까지 ( 2025/11/08 ~ 2025/11/09 )
+https://codingapple.com/course/html-basics/
