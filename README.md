@@ -358,3 +358,5 @@ https://codingapple.com/course/react-basic/
 
 (강의) [2회차] HTML/CSS All-in-one : 기초부터 Bootstrap, SASS, 고급 animation 까지 ( 2025/11/08 ~ 2025/11/09 )
 https://codingapple.com/course/html-basics/
+
+(강의) [2회차]  JavaScript 입문과 웹 UI개발 ( 2025/11/10 ~ 2025/11/02 )
