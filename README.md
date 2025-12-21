@@ -360,3 +360,5 @@ https://codingapple.com/course/react-basic/
 https://codingapple.com/course/html-basics/
 
 (강의) [2회차]  JavaScript 입문과 웹 UI개발 ( 2025/11/10 ~ 2025/11/02 )
+
+(강의) 인스타그램을 만들며 배워보는 Vue.js 3 완벽 가이드 ( 2025/12/20 ~ )
