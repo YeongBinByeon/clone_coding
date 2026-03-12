@@ -377,4 +377,4 @@ https://codingapple.com/course/html-basics/
 
 (인프런) QA 직군으로 IT 업계에 입문하기 ( 2026/02/09 ~ 2026/02/10 )
 
-(인프런) Vue 3 중급 - Composition API ( 2026/03/07 ~ )
+(인프런) Vue 3 중급 - Composition API ( 2026/03/07 ~ 2026/03/08 )
