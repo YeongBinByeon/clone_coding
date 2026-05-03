@@ -387,4 +387,4 @@ https://codingapple.com/course/html-basics/
 
 (인프런) [3회차] Vue 3 시작하기 ( 2026/04/24 ~ 2026/04/25 )
 
-(인프런) [3회차] Vue 3 중급 - Composition API ( 2026/05/02 ~  )
+(인프런) [3회차] Vue 3 중급 - Composition API ( 2026/05/02 ~ 2026/05/03 )
